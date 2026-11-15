@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080808">
+<title>JRM Store — FiveM Menus</title>
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="announcement">JRM STORE <b>•</b> FIVEM MENU COLLECTION <b>•</b> SUPPORT & DELIVERY THROUGH DISCORD TICKETS</div>
+<header><div class="wrap nav">
+<a class="brand" href="#"><span class="logo">JRM</span><span>JRM <em>STORE</em></span></a>
+<nav><a href="#home">Home</a><a href="#menus">Menus</a><a href="#delivery">How to buy</a><a href="#support">Support</a></nav>
+<div><a class="navbtn red" href="#menus">BROWSE MENUS ↗</a></div>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap heroGrid">
+<div><div class="pill"><i class="dot"></i> JRM FIVEM DIGITAL STORE</div><h1>YOUR NEXT<br>FIVEM MENU IS<br><span>HERE.</span></h1><p>Explore the JRM Store catalog. Compare available license durations, choose your product, and contact our team through a Discord ticket for order assistance and delivery.</p><div class="actions"><a class="btn red" href="#menus">EXPLORE MENUS ↗</a><a class="btn" href="#support">DISCORD SUPPORT</a></div></div>
+<div class="heroArt"><strong>JRM<span>.</span></strong><div class="artLabel">FIVEM MENU STORE · RED / BLACK EDITION</div></div>
+</div></section>
+<div class="trust"><div class="wrap trustRow">
+<div class="trustItem"><span class="trustIcon">▣</span><div><b>Multiple license options</b><small>Choose the duration listed per product</small></div></div>
+<div class="trustItem"><span class="trustIcon">🎫</span><div><b>Ticket-based support</b><small>Contact the team through Discord</small></div></div>
+<div class="trustItem"><span class="trustIcon">◆</span><div><b>Order assistance</b><small>Follow the ticket process for delivery</small></div></div>
+</div></div>
+<section id="menus"><div class="wrap">
+<div class="sectionHead"><div><div class="kicker">JRM catalog</div><h2>Featured FiveM Menus</h2></div><p>Choose a product to view the example license options. Product names, descriptions, and prices below are placeholders for your real catalog.</p></div>
+<div class="filters"><input class="search" id="search" placeholder="Search menus..."><select class="filter" id="sort"><option value="all">All products</option><option value="featured">Featured</option></select></div>
+<div class="products" id="productsGrid">
+<article class="product" data-name="JRM Premium Menu" data-desc="Premium menu product listing. Add your approved product description and support details."><div class="productImage"><span class="badge">BEST SELLER</span><strong>PREMIUM</strong></div><div class="productBody"><div class="category">FiveM Menu</div><h3>JRM Premium Menu</h3><p>Premium product listing with multiple license durations.</p><div class="foot"><div class="price">From $9.99<small>4 license options</small></div><button class="options" data-name="JRM Premium Menu" data-plans="1 Week:4.99|1 Month:9.99|3 Months:19.99|Lifetime:49.99">VIEW OPTIONS</button></div></div></article>
+<article class="product" data-name="JRM Standard Menu" data-desc="Standard menu product listing. Add your approved product description and support details."><div class="productImage"><strong>STANDARD</strong></div><div class="productBody"><div class="category">FiveM Menu</div><h3>JRM Standard Menu</h3><p>Standard product listing with flexible license options.</p><div class="foot"><div class="price">From $6.99<small>3 license options</small></div><button class="options" data-name="JRM Standard Menu" data-plans="1 Week:3.99|1 Month:6.99|Lifetime:29.99">VIEW OPTIONS</button></div></div></article>
+<article class="product" data-name="JRM Starter Menu" data-desc="Starter menu product listing. Add your approved product description and support details."><div class="productImage"><span class="badge">NEW</span><strong>STARTER</strong></div><div class="productBody"><div class="category">FiveM Menu</div><h3>JRM Starter Menu</h3><p>Starter product listing. Details can be managed in your admin panel.</p><div class="foot"><div class="price">From $3.99<small>2 license options</small></div><button class="options" data-name="JRM Starter Menu" data-plans="1 Week:3.99|1 Month:8.99">VIEW OPTIONS</button></div></div></article>
+</div><div id="noResults" style="display:none;text-align:center;color:#888;font-size:11px;padding:25px">No menus found.</div>
+</div></section>
+<section class="delivery" id="delivery"><div class="wrap" style="padding:55px 0"><div class="sectionHead"><div><div class="kicker">Simple process</div><h2>How to order</h2></div><p>JRM Store uses Discord tickets for order assistance and delivery coordination.</p></div>
+<div class="steps"><div class="step"><div class="num">01 / SELECT</div><h3>Choose your menu</h3><p>Open a product, compare the available durations and choose the license you want.</p></div><div class="step"><div class="num">02 / OPEN TICKET</div><h3>Contact us on Discord</h3><p>Use the TicketKing ticket panel in our Discord server and provide your product and selected license.</p></div><div class="step"><div class="num">03 / DELIVERY</div><h3>Order assistance & delivery</h3><p>Our team reviews the ticket and coordinates the order according to the product's delivery instructions.</p></div></div>
+</div></section>
+<section id="support"><div class="wrap"><div class="sectionHead"><div><div class="kicker">Need assistance?</div><h2>Discord ticket support</h2></div><p>TicketKing is the ticket system used by the JRM Discord community.</p></div>
+<div class="ticketPanel"><div class="ticketBox"><div class="kicker">JRM CUSTOMER SUPPORT</div><h3>Need help with an order?</h3><p>Open a ticket in our Discord server using TicketKing. Include the product name and the license duration you selected so the team can assist you.</p><a class="btn red" id="ticketLink" href="#" target="_blank" rel="noopener">OPEN DISCORD TICKET ↗</a></div><div class="ticketSide"><h3>Before opening a ticket</h3><ul><li>Have the product name ready.</li><li>Specify your chosen license duration.</li><li>Include your order reference if you already have one.</li><li>Wait for a staff member to respond in your ticket.</li></ul></div></div>
+</div></section>
+</main>
+<footer><div class="wrap footerRow"><span>© 2026 JRM STORE. All rights reserved.</span><span>FiveM menu catalog · Discord ticket support</span></div></footer>
+<div class="modal" id="modal"><div class="modalBox"><button class="close" id="close">×</button><div class="kicker">SELECT A LICENSE</div><h2 id="modalTitle">Product</h2><p>Select the license duration you want. Then continue to the Discord TicketKing ticket panel to contact the store team.</p><div class="plans" id="plans"></div><div class="modalBottom"><div><small style="color:#888;font-size:9px">SELECTED PRICE</small><br><strong id="price">$0.00</strong></div><button class="btn red" id="continue">CONTINUE TO TICKET ↗</button></div><p style="font-size:9px">Preview only: example products and prices. The TicketKing link must be replaced with your Discord ticket panel URL. No payment or delivery is processed on this preview.</p></div></div>
+<script src="script.js"></script></body></html>
